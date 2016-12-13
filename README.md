@@ -67,7 +67,6 @@
 3. Write a program to find a programming language by its name.
 4. Write a program to update a programming language's website URL.
 5. Write a program to find a programming language by its name, then print out its object ID.
-6. Write a program to increment a students points by 1.
 
 
 ## Validation
