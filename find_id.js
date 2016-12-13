@@ -23,12 +23,5 @@ const Language = mongoose.model("Language", {
 // JSON.stringify will show the objects inside the inventors
 Language.find({ name: "Python"})
   .then(function(docs) {
-    console.log("\n\nHere is the information you requested", JSON.stringify(docs));
-  });
-
-
-// JSON.stringify will show the objects inside the inventors
-Language.find({ name: "Python"})
-  .then(function(docs) {
     console.log("\n\nHere is the information you requested\n\n", JSON.stringify(docs[0]._id));
   });
