@@ -16,10 +16,13 @@ const Language = mongoose.model("Language", {
   name: { type: String, required: true },
   website: String,
   dateFirstAppeared: { type: Date, required: true },
-  inventors: { type: [{
-    name: { type: String, required: true},
-    website: String
-  }], required: true },
+  inventors: {
+    type: [{
+      name: { type: String, required: true},
+      website: String
+    }],
+    required: true
+  },
   paradigms: [String],
   typingDiscipline: [String],
   dateCurrentRelease: Date,

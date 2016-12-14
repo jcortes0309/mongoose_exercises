@@ -25,3 +25,8 @@ Language.find({ name: "Python"})
   .then(function(docs) {
     console.log("\n\nHere is the information you requested\n\n", JSON.stringify(docs[0]._id));
   });
+
+// Language.findById("58503576708b6a5d21efeb3a")
+//   .then(function(information) {
+//     console.log("The information for id 58503576708b6a5d21efeb3a is: ", information);
+//   });
